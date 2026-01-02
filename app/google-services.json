@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "699911988195",
+    "project_id": "jagafaktaid",
+    "storage_bucket": "jagafaktaid.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699911988195:android:50ad9391a7a176e485f6d6",
+        "android_client_info": {
+          "package_name": "com.jagafakta.jagafakta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "699911988195-igr97o8ftgo6lcbuisbguo22lj7erulq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jagafakta.jagafakta",
+            "certificate_hash": "daabd6d50aafc34f4fb16bb4c3db76b9fda832ab"
+          }
+        },
+        {
+          "client_id": "699911988195-2ilitsbq0koup5es361rnvqqoe3nfni6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVme5l59cz_97JogUFvkx_XGN9A508OKg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "699911988195-2ilitsbq0koup5es361rnvqqoe3nfni6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

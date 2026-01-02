@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- izinkan file dari cache (kita pakai cacheDir di contoh) -->
+    <cache-path name="cache" path="."/>
+
+    <!-- opsional: files-path, external-cache-path, external-path -->
+    <files-path name="files" path="."/>
+    <external-cache-path name="external_cache" path="."/>
+    <!-- jangan buka seluruh external storage kecuali perlu -->
+</paths>

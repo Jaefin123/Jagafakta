@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.Jagafakta" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Warna utama -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/onprimary</item>
+
+        <!-- Warna sekunder -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorOnSecondary">@color/onsecondary</item>
+        <item name="colorControlActivated">#1414E2</item>
+
+
+        <!-- Override style tombol -->
+        <item name="materialButtonStyle">@style/Widget.App.Button.NoTint</item>
+        <item name="materialButtonOutlinedStyle">@style/Widget.App.Button.NoTint</item>
+    </style>
+
+    <style name="Widget.App.Button.NoTint" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@null</item>
+        <item name="android:backgroundTint">@null</item>
+        <item name="rippleColor">@null</item>
+        <item name="strokeColor">@null</item>
+    </style>
+
+</resources>

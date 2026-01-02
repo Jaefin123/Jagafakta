@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="12dp"
+    android:layout_marginHorizontal="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:padding="12dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="12 Maret 2024"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="#666666"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/LabelResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/red"
+                android:fontFamily="@font/poppins_bold"
+                android:gravity="center"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="8dp"
+                android:text="HOAX"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tvSnippet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Ini potongan teks berita hasil scan user…"
+            android:textColor="#333333"
+            android:fontFamily="@font/poppins_regular"
+            android:textSize="14sp"
+            android:maxLines="3"
+            android:ellipsize="end"/>
+
+
+        <LinearLayout
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnView"
+                style="@style/Widget.App.Button.NoTint"
+                android:layout_width="160dp"
+                android:layout_height="55dp"
+                android:background="@drawable/btn_primary"
+                android:fontFamily="@font/poppins_semibold"
+                android:paddingHorizontal="16dp"
+                android:text="Lihat Hasil"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btnDelete"
+                style="@style/Widget.App.Button.NoTint"
+                android:layout_width="156dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="12dp"
+                android:background="@drawable/btn_primary"
+                android:fontFamily="@font/poppins_semibold"
+                android:paddingHorizontal="16dp"
+                android:text="Hapus"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
